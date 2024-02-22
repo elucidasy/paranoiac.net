@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "public",
+    "rewrites": [
+        {
+            "source": "uci.paranoiac.net/**",
+            "destination": "/uci/**"
+            
+        }
+    ],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+body {
+  background-image: url("bg.png");
+  background-repeat: repeat;
+  color: black;
+  font-family: 'Brush Script MT';
+}
+a {
+  color: magenta;
+  font-size: 20px;
+}
+a:hover {
+  color: purple;
+  background: gold;
+}
+#header{
+  margin: auto;
+  margin-top: 40px;
+  width: 500px;
+  background-color: #FFF0F5;
+}
+#body {
+  margin: auto;
+  width: 50%;
+}
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+}
+#navi {
+  text-align: center;
+  color:purple;
+  background-color: white;
+}
+#navi ul {
+  padding-right: 2em;
+}
+#navi li{
+  display: inline;
+}

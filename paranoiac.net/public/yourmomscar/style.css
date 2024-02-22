@@ -1,0 +1,46 @@
+body {
+  background-size: 13%;
+  background-image: url('yourmomscar_bg2.png');
+}
+#header {
+  display: block;
+  width: 30%;
+  margin: auto;
+  background: #1b1b1b;
+  text-align: center;
+  margin-top: 4em;
+  padding: 20px;
+  box-shadow: 20px 20px #555d50;
+  
+}
+#header img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  filter: hue-rotate(-10deg);
+}
+#body {
+  color: white;
+  font-family: "Lucida Console";
+  font-size: 20px;
+  display: block;
+  width: 50%;
+  margin: auto;
+  background: #1b1b1b;
+  text-align: center;
+  margin-top: 4em;
+  padding: 20px;
+  box-shadow: 20px 20px #555d50;
+    
+}
+
+#lynx a {
+    color: azure;
+    filter: blur(1px) contrast(110%);
+    transition: 0.5s;
+}
+#lynx a:hover {
+    color: cornflowerblue;
+    filter: blur(0.2px);
+    transition: 1s;
+}
